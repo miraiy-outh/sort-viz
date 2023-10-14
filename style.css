@@ -24,7 +24,11 @@ body {
 }
 
 .controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 20px;
+    gap: 20px;
 }
 
 .array__container {
@@ -51,10 +55,6 @@ body {
     background-color: var(--bar-color-compare2);
 }
 
-.comparing3 {
-    background-color: var(--bar-color-compare3);
-}
-
-#stopButton {
-    margin-left: 10px;
+button {
+    width: 100px;
 }

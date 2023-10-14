@@ -11,16 +11,22 @@
 <body>
     <div class="container">
         <div class="controls">
-            <label for="arraySize">Размер массива:</label>
-            <input type="number" class="array__size" id="arraySize" value="30">
-            <label for="sortingAlgorithm">Алгоритм сортировки:</label>
-            <select class="sorting-algorithm">
-                <option value="bubbleSort">Сортировка пузырьком (Bubble Sort)</option>
-                <option value="selectionSort">Сортировка выбором (Selection Sort)</option>
-                <option value="insertionSort">Сортировка вставками (Insertion Sort)</option>
-                <option value="mergeSort">Сортировка слиянием (Merge Sort)</option>
-                <option value="quickSort">Быстрая сортировка (Quick Sort)</option>
-            </select>
+            <div>
+                <label for="arraySize">Размер массива:</label>
+                <input type="number" class="array__size" id="arraySize" value="30">
+            </div>
+
+            <div>
+                <label for="sortingAlgorithm">Алгоритм сортировки:</label>
+                <select class="sorting-algorithm">
+                    <option value="bubbleSort">Сортировка пузырьком (Bubble Sort)</option>
+                    <option value="selectionSort">Сортировка выбором (Selection Sort)</option>
+                    <option value="insertionSort">Сортировка вставками (Insertion Sort)</option>
+                    <option value="mergeSort">Сортировка слиянием (Merge Sort)</option>
+                    <option value="quickSort">Быстрая сортировка (Quick Sort)</option>
+                </select>
+            </div>
+
             <button class="startButton">Старт</button>
             <button class="stopButton">Стоп</button>
         </div>
