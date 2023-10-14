@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Алгоритмы сортировки</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="controls">
+            <label for="arraySize">Размер массива:</label>
+            <input type="number" class="array__size" id="arraySize" value="30">
+            <label for="sortingAlgorithm">Алгоритм сортировки:</label>
+            <select class="sorting-algorithm">
+                <option value="bubbleSort">Сортировка пузырьком (Bubble Sort)</option>
+                <option value="selectionSort">Сортировка выбором (Selection Sort)</option>
+                <option value="insertionSort">Сортировка вставками (Insertion Sort)</option>
+                <option value="mergeSort">Сортировка слиянием (Merge Sort)</option>
+                <option value="quickSort">Быстрая сортировка (Quick Sort)</option>
+            </select>
+            <button class="startButton">Старт</button>
+            <button class="stopButton">Стоп</button>
+        </div>
+        <div class="array__container" id="arrayContainer"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
