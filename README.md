@@ -1,3 +1,3 @@
 Визуализация алгоритмов сортировки
 
-Запуск: https://miraiy-outh.github.io/wb_prob_L2_8/
+Запуск: https://miraiy-outh.github.io/sort-viz/
